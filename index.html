@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Upload Files</title>
+        <link rel = "stylesheet" type = "text/css" href = "css/style.css">
+    </head>
+    <body>
+        <header>
+           <div class="title">
+                <h1>UPLOAD FILES</h1>
+            </div>
+            <form method="POST" action="/upload" enctype="multipart/form-data">
+                <div class = "upload">
+                    <span>Select File:</span>  
+                    <input class="btn" type="file" name="filename" />
+                </div>
+                <div class = "done">
+                    <input class="btn" type="submit" name="btn_upload_filename" value="Upload" />
+                </div>
+            </form>
+        </header>
+    </body>
+</html>
